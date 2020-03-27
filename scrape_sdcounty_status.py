@@ -1,5 +1,5 @@
 import requests,html5lib,json
-import boto3
+import boto3,datetime
 
 
 def get_county_html():
@@ -28,6 +28,7 @@ def parse_out_table(doc):
         elif len(r) == 3:
             result.setdefault(r[0],{})
             result[r[0]][r[1]] = int(r[2])
+    result["updated"] = datetime.datetime.now().isoformat()
     return result
 
 if __name__=="__main__":
