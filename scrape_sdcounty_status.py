@@ -38,7 +38,7 @@ if __name__=="__main__":
 def lambda_handler(event, context):
     s3_client = boto3.client('s3')
 
-    path = '/data/coronavirus-latest.json'
+    path = 'data/coronavirus-latest.json'
     bucket = 'opensandiego-data'
 
     # Get Data
