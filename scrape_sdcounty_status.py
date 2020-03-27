@@ -1,4 +1,5 @@
 import requests,html5lib,json
+import boto3
 
 
 def get_county_html():
@@ -33,4 +34,15 @@ if __name__=="__main__":
     htmldoc = get_county_html() 
     data = parse_out_table(htmldoc)
     print( json.dumps(data,indent=1) )
+
+def lambda_handler(event, context):
+    s3_client = boto3.client('s3')
+
+    path = '/data/coronavirus-latest.json'
+    bucket = 'opensandiego-data'
+
+    # Get Data
+    htmldoc = get_county_html() 
+    data = parse_out_table(htmldoc)
+    s3_client.put_object( Body = json.dumps(data,indent=1), Bucket=bucket, Key=path )
 
