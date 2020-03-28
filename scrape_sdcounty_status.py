@@ -81,15 +81,18 @@ def lambda_handler(event, context):
     regex = re.compile(r'data\/corona-sd\/(\d+)-(\d+)-(\d+)-corona-sd.json')
     for d in result['Contents']:
         m = regex.match(d['Key'])
+
         if m:
-            listing.append( { 
-                "date":zip(('year','month','day'),m.groups()), 
-                "path": d['Key']
-            })
+            datum = json.loads(s3_client.get_object(
+                Bucket = bucket,
+                Key = d['Key'],
+            )['Body'].read())
+            listing.append( datum )
+
     s3_client.put_object( 
         Body = json.dumps(listing,indent=1), 
         Bucket=bucket, 
-        Key='data/corona-sd/manifest.json', 
+        Key='data/corona-sd/data.json', 
         ContentType="application/json",
         ACL='public-read',
     )
