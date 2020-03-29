@@ -3,6 +3,9 @@ import boto3,datetime,sys,re
 
 URL = "https://www.sandiegocounty.gov/content/sdc/hhsa/programs/phs/community_epidemiology/dc/2019-nCoV/status.html"
 
+# PDT
+date_str = (datetime.datetime.utcnow() - datetime.timedelta(hours=7)).strftime("%Y-%m-%d")
+
 def get_county_html(url=None):
     if not url:
         url = URL
@@ -32,7 +35,7 @@ def parse_out_table(doc):
         #print("%s = %s" % (k,v))
         result[k] = v
 
-    result["updated"] = (datetime.datetime.utcnow() - datetime.timedelta(hours=7)).strftime("%Y-%m-%d")
+    result["updated"] = date_str
     return result
 
 if __name__=="__main__":
@@ -48,29 +51,14 @@ def lambda_handler(event, context):
     s3_client = boto3.client('s3')
 
     path = 'data/corona-sd/coronavirus-latest.json'
-    dated_path = 'data/corona-sd/%s-coronavirus.json'
+    dated_path = 'data/corona-sd/%s-corona-sd.json'
     bucket = 'opensandiego-data'
 
     # Get Data
     htmldoc = get_county_html() 
     data = parse_out_table(htmldoc)
 
-    s3_client.put_object( 
-        Body = json.dumps(data,indent=1), 
-        Bucket=bucket, 
-        Key=path, 
-        ContentType="application/json",
-        ACL='public-read',
-    )
-    s3_client.put_object( 
-        Body = json.dumps(data,indent=1), 
-        Bucket=bucket, 
-        ContentType="application/json",
-        Key=dated_path % datetime.datetime.now().strftime("%Y-%m-%d"), 
-        ACL='public-read',
-    )
-
-    # Generate index
+   # Generate index
     # TODO
     result = s3_client.list_objects_v2(
         Bucket = bucket,
@@ -88,7 +76,9 @@ def lambda_handler(event, context):
                 Key = d['Key'],
             )['Body'].read())
             listing.append( datum )
+    listing.append( data ) 
 
+    # Update full data feed first
     s3_client.put_object( 
         Body = json.dumps(listing,indent=1), 
         Bucket=bucket, 
@@ -97,4 +87,20 @@ def lambda_handler(event, context):
         ACL='public-read',
     )
 
+    # Then put latest snapshot for record keeping
+    s3_client.put_object( 
+        Body = json.dumps(data,indent=1), 
+        Bucket=bucket, 
+        Key=path, 
+        ContentType="application/json",
+        ACL='public-read',
+    )
+    s3_client.put_object( 
+        Body = json.dumps(data,indent=1), 
+        Bucket=bucket, 
+        ContentType="application/json",
+        Key=dated_path % date_str, 
+        ACL='public-read',
+    )
 
+ 
