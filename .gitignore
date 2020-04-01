@@ -1,3 +1,5 @@
 venv/
 *.pyc
 function.zip
+.DS_Store
+data/
