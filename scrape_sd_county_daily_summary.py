@@ -64,7 +64,7 @@ if __name__=="__main__":
     
     yesterdate = str(date.today() - timedelta(days=1)) 
     file = "sd_daily_update_city_" + yesterdate + ".pdf"
-    filepath = "sd_daily_pdfs/"
+    filepath = "sd_daily_city_pdfs/"
     filename = filepath + file
     URL = "https://www.sandiegocounty.gov/content/dam/sdc/hhsa/programs/" + \
     "phs/Epidemiology/COVID-19%20Daily%20Update_City%20of%20Residence.pdf"
