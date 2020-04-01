@@ -39,7 +39,7 @@ def convert_pdf(filename,yesterdate):
     for i, plist in enumerate(pdf_list):        
         if('incorporated city' in plist[0].lower()):
             start_index = i + 1
-        elif('unknown' in plist[0].lower()):
+        elif('total san diego' in plist[0].lower()):
             end_index = i + 1
             break
     

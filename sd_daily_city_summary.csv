@@ -1,240 +1,267 @@
 date,city,confirmed_cases,percent_of_total(%)
-3/21/20,carlsbad ,11,6.9
-3/21/20,chula vista ,4,2.5
-3/21/20,del mar ,2,1.3
-3/21/20,el cajon ,2,1.3
-3/21/20,encinitas ,4,2.5
-3/21/20,escondido ,2,1.3
-3/21/20,national city ,1,0.6
-3/21/20,oceanside ,4,2.5
-3/21/20,poway ,1,0.6
-3/21/20,san diego ,87,54.7
-3/21/20,san marcos ,3,1.9
-3/21/20,santee ,1,0.6
-3/21/20,solana beach ,2,1.3
-3/21/20,vista ,2,1.3
-3/21/20,fallbrook ,2,1.3
-3/21/20,ramona ,2,1.3
-3/21/20,rancho santa fe ,2,1.3
-3/21/20,unknown* ,3,1.9
-3/21/20,total san diego county residents ,135,84.9
-3/22/20,carlsbad ,12,5.9
-3/22/20,chula vista ,4,2
-3/22/20,del mar ,4,2
-3/22/20,el cajon ,2,1
-3/22/20,encinitas ,5,2.4
-3/22/20,escondido ,3,1.5
-3/22/20,la mesa ,1,0.5
-3/22/20,national city ,2,1
-3/22/20,oceanside ,4,2
-3/22/20,poway ,2,1
-3/22/20,san diego ,118,57.6
-3/22/20,san marcos ,3,1.5
-3/22/20,santee ,1,0.5
-3/22/20,solana beach ,2,1
-3/22/20,vista ,2,1
-3/22/20,fallbrook ,2,1
-3/22/20,lakeside ,1,0.5
-3/22/20,ramona ,2,1
-3/22/20,rancho santa fe ,3,1.5
-3/22/20,unknown* ,5,2.4
-3/22/20,total san diego county residents ,178,86.8
-3/23/20,carlsbad ,14,6.1
-3/23/20,chula vista ,6,2.6
-3/23/20,del mar ,5,2.2
-3/23/20,el cajon ,7,3
-3/23/20,encinitas ,5,2.2
-3/23/20,escondido ,5,2.2
-3/23/20,la mesa ,1,0.4
-3/23/20,national city ,3,1.3
-3/23/20,oceanside ,5,2.2
-3/23/20,poway ,2,0.9
-3/23/20,san diego ,134,58.3
-3/23/20,san marcos ,3,1.3
-3/23/20,santee ,1,0.4
-3/23/20,solana beach ,1,0.4
-3/23/20,vista ,2,0.9
-3/23/20,bonita ,1,0.4
-3/23/20,fallbrook ,2,0.9
-3/23/20,lakeside ,2,0.9
-3/23/20,ramona ,2,0.9
-3/23/20,rancho santa fe ,5,2.2
-3/23/20,spring valley ,2,0.9
-3/23/20,unknown* ,5,2.2
-3/23/20,total san diego county residents ,213,92.6
-3/24/20,carlsbad,13,
-3/24/20,chula Vista,7,
-3/24/20,coronado,0,
-3/24/20,del mar,5,
-3/24/20,el cajon,8,
-3/24/20,encinitas,7,
-3/24/20,escondido,6,
-3/24/20,la mesa,1,
-3/24/20,lemon grove,0,
-3/24/20,national city,3,
-3/24/20,oceanside,7,
-3/24/20,poway,2,
-3/24/20,san diego,141,
-3/24/20,san marcos,3,
-3/24/20,santee,1,
-3/24/20,solana beach,1,
-3/24/20,vista,2,
-3/24/20,bonita,1,
-3/24/20,fallbrook,2,
-3/24/20,jamul,0,
-3/24/20,lakeside,2,
-3/24/20,ramona,2,
-3/24/20,rancho santa fe,5,
-3/24/20,san ysidro,0,
-3/24/20,spring valley,3,
-3/24/20,total san diego county residents ,222,
-3/25/20,carlsbad,16,
-3/25/20,chula vista,13,
-3/25/20,coronado,0,
-3/25/20,del mar,5,
-3/25/20,el cajon,13,
-3/25/20,encinitas,8,
-3/25/20,escondido,6,
-3/25/20,la mesa,1,
-3/25/20,lemon grove,1,
-3/25/20,national city,5,
-3/25/20,oceanside,7,
-3/25/20,poway,3,
-3/25/20,san diego,169,
-3/25/20,san marcos,3,
-3/25/20,santee,1,
-3/25/20,solana beach,1,
-3/25/20,vista,3,
-3/25/20,bonita,1,
-3/25/20,fallbrook,2,
-3/25/20,jamul,1,
-3/25/20,lakeside,2,
-3/25/20,ramona,2,
-3/25/20,rancho santa fe,5,
-3/25/20,san ysidro,1,
-3/25/20,spring valley,4,
-3/25/20,total san diego county residents ,273,
-3/26/20,carlsbad ,15,4.4
-3/26/20,chula vista ,17,5
-3/26/20,del mar ,5,1.5
-3/26/20,el cajon ,19,5.6
-3/26/20,encinitas ,12,3.5
-3/26/20,escondido ,7,2.1
-3/26/20,la mesa ,1,0.3
-3/26/20,lemon grove ,1,0.3
-3/26/20,national city ,6,1.8
-3/26/20,oceanside ,8,2.3
-3/26/20,poway ,4,1.2
-3/26/20,san diego ,207,60.7
-3/26/20,san marcos ,3,0.9
-3/26/20,santee ,2,0.6
-3/26/20,solana beach ,1,0.3
-3/26/20,vista ,5,1.5
-3/26/20,bonita ,1,0.3
-3/26/20,fallbrook ,2,0.6
-3/26/20,lakeside ,2,0.6
-3/26/20,ramona ,2,0.6
-3/26/20,rancho santa fe ,5,1.5
-3/26/20,spring valley ,4,1.2
-3/26/20,unknown* ,12,3.5
-3/26/20,total san diego county residents ,341,100
-3/27/20,carlsbad,18,
-3/27/20,chula vista,21,
-3/27/20,coronado,1,
-3/27/20,del mar,6,
-3/27/20,cl cajon,20,
-3/27/20,encinitas,14,
-3/27/20,escondido,7,
-3/27/20,la mesa,3,
-3/27/20,lemon grove,1,
-3/27/20,national city,6,
-3/27/20,oceanside,8,
-3/27/20,poway,5,
-3/27/20,san diego,251,
-3/27/20,san marcos,3,
-3/27/20,santee,2,
-3/27/20,solana beach,1,
-3/27/20,vista,6,
-3/27/20,bonita,2,
-3/27/20,fallbrook,3,
-3/27/20,jamul,0,
-3/27/20,lakeside,2,
-3/27/20,ramona,3,
-3/27/20,rancho santa fe,6,
-3/27/20,san ysidro,1,
-3/27/20,spring valley,5,
-3/28/20,carlsbad ,20,3.9
-3/28/20,chula vista ,24,4.6
-3/28/20,coronado ,1,0.2
-3/28/20,del mar ,6,1.2
-3/28/20,el cajon ,29,5.6
-3/28/20,encinitas ,18,3.5
-3/28/20,escondido ,9,1.7
-3/28/20,la mesa ,4,0.8
-3/28/20,lemon grove ,3,0.6
-3/28/20,national city ,8,1.5
-3/28/20,oceanside ,11,2.1
-3/28/20,poway ,7,1.3
-3/28/20,san diego ,314,60.5
-3/28/20,san marcos ,4,0.8
-3/28/20,santee ,2,0.4
-3/28/20,solana beach ,2,0.4
-3/28/20,vista ,10,1.9
-3/28/20,bonita ,2,0.4
-3/28/20,fallbrook ,4,0.8
-3/28/20,lakeside ,3,0.6
-3/28/20,ramona ,4,0.8
-3/28/20,rancho santa fe ,7,1.3
-3/28/20,spring valley ,9,1.7
-3/28/20,unknown* ,18,3.5
-3/28/20,total san diego county residents ,519,100
-3/29/20,carlsbad ,20,3.9
-3/29/20,chula vista ,24,4.6
-3/29/20,coronado ,1,0.2
-3/29/20,del mar ,6,1.2
-3/29/20,el cajon ,29,5.6
-3/29/20,encinitas ,18,3.5
-3/29/20,escondido ,9,1.7
-3/29/20,la mesa ,4,0.8
-3/29/20,lemon grove ,3,0.6
-3/29/20,national city ,8,1.5
-3/29/20,oceanside ,11,2.1
-3/29/20,poway ,7,1.3
-3/29/20,san diego ,314,60.5
-3/29/20,san marcos ,4,0.8
-3/29/20,santee ,2,0.4
-3/29/20,solana beach ,2,0.4
-3/29/20,vista ,10,1.9
-3/29/20,bonita ,2,0.4
-3/29/20,fallbrook ,4,0.8
-3/29/20,lakeside ,3,0.6
-3/29/20,ramona ,4,0.8
-3/29/20,rancho santa fe ,7,1.3
-3/29/20,spring valley ,9,1.7
-3/29/20,unknown* ,18,3.5
-3/29/20,total san diego county residents ,519,100
-3/30/20,carlsbad ,24,4
-3/30/20,chula vista ,32,5.3
-3/30/20,coronado ,1,0.2
-3/30/20,del mar ,6,1
-3/30/20,el cajon ,34,5.6
-3/30/20,encinitas ,19,3.2
-3/30/20,escondido ,10,1.7
-3/30/20,la mesa ,6,1
-3/30/20,lemon grove ,4,0.7
-3/30/20,national city ,8,1.3
-3/30/20,oceanside ,14,2.3
-3/30/20,poway ,7,1.2
-3/30/20,san diego ,350,58
-3/30/20,san marcos ,5,0.8
-3/30/20,santee ,3,0.5
-3/30/20,solana beach ,2,0.3
-3/30/20,vista ,11,1.8
-3/30/20,bonita ,4,0.7
-3/30/20,fallbrook ,4,0.7
-3/30/20,lakeside ,4,0.7
-3/30/20,ramona ,4,0.7
-3/30/20,rancho santa fe ,10,1.7
-3/30/20,spring valley ,12,2
-3/30/20,unknown* ,29,4.8
-3/30/20,total san diego county residents ,603,100
+2020-03-21,carlsbad ,11,6.9
+2020-03-21,chula vista ,4,2.5
+2020-03-21,del mar ,2,1.3
+2020-03-21,el cajon ,2,1.3
+2020-03-21,encinitas ,4,2.5
+2020-03-21,escondido ,2,1.3
+2020-03-21,national city ,1,0.6
+2020-03-21,oceanside ,4,2.5
+2020-03-21,poway ,1,0.6
+2020-03-21,san diego ,87,54.7
+2020-03-21,san marcos ,3,1.9
+2020-03-21,santee ,1,0.6
+2020-03-21,solana beach ,2,1.3
+2020-03-21,vista ,2,1.3
+2020-03-21,fallbrook ,2,1.3
+2020-03-21,ramona ,2,1.3
+2020-03-21,rancho santa fe ,2,1.3
+2020-03-21,unknown* ,3,1.9
+2020-03-21,total san diego county residents ,135,84.9
+2020-03-22,carlsbad ,12,5.9
+2020-03-22,chula vista ,4,2
+2020-03-22,del mar ,4,2
+2020-03-22,el cajon ,2,1
+2020-03-22,encinitas ,5,2.4
+2020-03-22,escondido ,3,1.5
+2020-03-22,la mesa ,1,0.5
+2020-03-22,national city ,2,1
+2020-03-22,oceanside ,4,2
+2020-03-22,poway ,2,1
+2020-03-22,san diego ,118,57.6
+2020-03-22,san marcos ,3,1.5
+2020-03-22,santee ,1,0.5
+2020-03-22,solana beach ,2,1
+2020-03-22,vista ,2,1
+2020-03-22,fallbrook ,2,1
+2020-03-22,lakeside ,1,0.5
+2020-03-22,ramona ,2,1
+2020-03-22,rancho santa fe ,3,1.5
+2020-03-22,unknown* ,5,2.4
+2020-03-22,total san diego county residents ,178,86.8
+2020-03-23,carlsbad ,14,6.1
+2020-03-23,chula vista ,6,2.6
+2020-03-23,del mar ,5,2.2
+2020-03-23,el cajon ,7,3
+2020-03-23,encinitas ,5,2.2
+2020-03-23,escondido ,5,2.2
+2020-03-23,la mesa ,1,0.4
+2020-03-23,national city ,3,1.3
+2020-03-23,oceanside ,5,2.2
+2020-03-23,poway ,2,0.9
+2020-03-23,san diego ,134,58.3
+2020-03-23,san marcos ,3,1.3
+2020-03-23,santee ,1,0.4
+2020-03-23,solana beach ,1,0.4
+2020-03-23,vista ,2,0.9
+2020-03-23,bonita ,1,0.4
+2020-03-23,fallbrook ,2,0.9
+2020-03-23,lakeside ,2,0.9
+2020-03-23,ramona ,2,0.9
+2020-03-23,rancho santa fe ,5,2.2
+2020-03-23,spring valley ,2,0.9
+2020-03-23,unknown* ,5,2.2
+2020-03-23,total san diego county residents ,213,92.6
+2020-03-24,carlsbad,13,
+2020-03-24,chula Vista,7,
+2020-03-24,coronado,0,
+2020-03-24,del mar,5,
+2020-03-24,el cajon,8,
+2020-03-24,encinitas,7,
+2020-03-24,escondido,6,
+2020-03-24,la mesa,1,
+2020-03-24,lemon grove,0,
+2020-03-24,national city,3,
+2020-03-24,oceanside,7,
+2020-03-24,poway,2,
+2020-03-24,san diego,141,
+2020-03-24,san marcos,3,
+2020-03-24,santee,1,
+2020-03-24,solana beach,1,
+2020-03-24,vista,2,
+2020-03-24,bonita,1,
+2020-03-24,fallbrook,2,
+2020-03-24,jamul,0,
+2020-03-24,lakeside,2,
+2020-03-24,ramona,2,
+2020-03-24,rancho santa fe,5,
+2020-03-24,san ysidro,0,
+2020-03-24,spring valley,3,
+2020-03-24,total san diego county residents ,222,
+2020-03-25,carlsbad,16,
+2020-03-25,chula vista,13,
+2020-03-25,coronado,0,
+2020-03-25,del mar,5,
+2020-03-25,el cajon,13,
+2020-03-25,encinitas,8,
+2020-03-25,escondido,6,
+2020-03-25,la mesa,1,
+2020-03-25,lemon grove,1,
+2020-03-25,national city,5,
+2020-03-25,oceanside,7,
+2020-03-25,poway,3,
+2020-03-25,san diego,169,
+2020-03-25,san marcos,3,
+2020-03-25,santee,1,
+2020-03-25,solana beach,1,
+2020-03-25,vista,3,
+2020-03-25,bonita,1,
+2020-03-25,fallbrook,2,
+2020-03-25,jamul,1,
+2020-03-25,lakeside,2,
+2020-03-25,ramona,2,
+2020-03-25,rancho santa fe,5,
+2020-03-25,san ysidro,1,
+2020-03-25,spring valley,4,
+2020-03-25,total san diego county residents ,273,
+2020-03-26,carlsbad ,15,4.4
+2020-03-26,chula vista ,17,5
+2020-03-26,del mar ,5,1.5
+2020-03-26,el cajon ,19,5.6
+2020-03-26,encinitas ,12,3.5
+2020-03-26,escondido ,7,2.1
+2020-03-26,la mesa ,1,0.3
+2020-03-26,lemon grove ,1,0.3
+2020-03-26,national city ,6,1.8
+2020-03-26,oceanside ,8,2.3
+2020-03-26,poway ,4,1.2
+2020-03-26,san diego ,207,60.7
+2020-03-26,san marcos ,3,0.9
+2020-03-26,santee ,2,0.6
+2020-03-26,solana beach ,1,0.3
+2020-03-26,vista ,5,1.5
+2020-03-26,bonita ,1,0.3
+2020-03-26,fallbrook ,2,0.6
+2020-03-26,lakeside ,2,0.6
+2020-03-26,ramona ,2,0.6
+2020-03-26,rancho santa fe ,5,1.5
+2020-03-26,spring valley ,4,1.2
+2020-03-26,unknown* ,12,3.5
+2020-03-26,total san diego county residents ,341,100
+2020-03-27,carlsbad,18,
+2020-03-27,chula vista,21,
+2020-03-27,coronado,1,
+2020-03-27,del mar,6,
+2020-03-27,cl cajon,20,
+2020-03-27,encinitas,14,
+2020-03-27,escondido,7,
+2020-03-27,la mesa,3,
+2020-03-27,lemon grove,1,
+2020-03-27,national city,6,
+2020-03-27,oceanside,8,
+2020-03-27,poway,5,
+2020-03-27,san diego,251,
+2020-03-27,san marcos,3,
+2020-03-27,santee,2,
+2020-03-27,solana beach,1,
+2020-03-27,vista,6,
+2020-03-27,bonita,2,
+2020-03-27,fallbrook,3,
+2020-03-27,jamul,0,
+2020-03-27,lakeside,2,
+2020-03-27,ramona,3,
+2020-03-27,rancho santa fe,6,
+2020-03-27,san ysidro,1,
+2020-03-27,spring valley,5,
+2020-03-28,carlsbad ,20,3.9
+2020-03-28,chula vista ,24,4.6
+2020-03-28,coronado ,1,0.2
+2020-03-28,del mar ,6,1.2
+2020-03-28,el cajon ,29,5.6
+2020-03-28,encinitas ,18,3.5
+2020-03-28,escondido ,9,1.7
+2020-03-28,la mesa ,4,0.8
+2020-03-28,lemon grove ,3,0.6
+2020-03-28,national city ,8,1.5
+2020-03-28,oceanside ,11,2.1
+2020-03-28,poway ,7,1.3
+2020-03-28,san diego ,314,60.5
+2020-03-28,san marcos ,4,0.8
+2020-03-28,santee ,2,0.4
+2020-03-28,solana beach ,2,0.4
+2020-03-28,vista ,10,1.9
+2020-03-28,bonita ,2,0.4
+2020-03-28,fallbrook ,4,0.8
+2020-03-28,lakeside ,3,0.6
+2020-03-28,ramona ,4,0.8
+2020-03-28,rancho santa fe ,7,1.3
+2020-03-28,spring valley ,9,1.7
+2020-03-28,unknown* ,18,3.5
+2020-03-28,total san diego county residents ,519,100
+2020-03-29,carlsbad ,20,3.9
+2020-03-29,chula vista ,24,4.6
+2020-03-29,coronado ,1,0.2
+2020-03-29,del mar ,6,1.2
+2020-03-29,el cajon ,29,5.6
+2020-03-29,encinitas ,18,3.5
+2020-03-29,escondido ,9,1.7
+2020-03-29,la mesa ,4,0.8
+2020-03-29,lemon grove ,3,0.6
+2020-03-29,national city ,8,1.5
+2020-03-29,oceanside ,11,2.1
+2020-03-29,poway ,7,1.3
+2020-03-29,san diego ,314,60.5
+2020-03-29,san marcos ,4,0.8
+2020-03-29,santee ,2,0.4
+2020-03-29,solana beach ,2,0.4
+2020-03-29,vista ,10,1.9
+2020-03-29,bonita ,2,0.4
+2020-03-29,fallbrook ,4,0.8
+2020-03-29,lakeside ,3,0.6
+2020-03-29,ramona ,4,0.8
+2020-03-29,rancho santa fe ,7,1.3
+2020-03-29,spring valley ,9,1.7
+2020-03-29,unknown* ,18,3.5
+2020-03-29,total san diego county residents ,519,100
+2020-03-30,carlsbad ,24,4
+2020-03-30,chula vista ,32,5.3
+2020-03-30,coronado ,1,0.2
+2020-03-30,del mar ,6,1
+2020-03-30,el cajon ,34,5.6
+2020-03-30,encinitas ,19,3.2
+2020-03-30,escondido ,10,1.7
+2020-03-30,la mesa ,6,1
+2020-03-30,lemon grove ,4,0.7
+2020-03-30,national city ,8,1.3
+2020-03-30,oceanside ,14,2.3
+2020-03-30,poway ,7,1.2
+2020-03-30,san diego ,350,58
+2020-03-30,san marcos ,5,0.8
+2020-03-30,santee ,3,0.5
+2020-03-30,solana beach ,2,0.3
+2020-03-30,vista ,11,1.8
+2020-03-30,bonita ,4,0.7
+2020-03-30,fallbrook ,4,0.7
+2020-03-30,lakeside ,4,0.7
+2020-03-30,ramona ,4,0.7
+2020-03-30,rancho santa fe ,10,1.7
+2020-03-30,spring valley ,12,2
+2020-03-30,unknown* ,29,4.8
+2020-03-30,total san diego county residents ,603,100
+2020-03-31,carlsbad ,27,3.7
+2020-03-31,chula vista ,38,5.2
+2020-03-31,coronado ,1,0.1
+2020-03-31,del mar ,5,0.7
+2020-03-31,el cajon ,36,4.9
+2020-03-31,encinitas ,20,2.7
+2020-03-31,escondido ,11,1.5
+2020-03-31,imperial beach ,0,0.0
+2020-03-31,la mesa ,8,1.1
+2020-03-31,lemon grove ,5,0.7
+2020-03-31,national city ,10,1.4
+2020-03-31,oceanside ,17,2.3
+2020-03-31,poway ,7,1.0
+2020-03-31,san diego ,422,57.5
+2020-03-31,san marcos ,5,0.7
+2020-03-31,santee ,5,0.7
+2020-03-31,solana beach ,3,0.4
+2020-03-31,vista ,8,1.1
+2020-03-31,bonita ,3,0.4
+2020-03-31,fallbrook ,4,0.5
+2020-03-31,lakeside ,5,0.7
+2020-03-31,ramona ,4,0.5
+2020-03-31,rancho santa fe ,11,1.5
+2020-03-31,spring valley ,17,2.3
+2020-03-31,other ,26,3.5
+2020-03-31,unknown* ,36,4.9
+2020-03-31,total san diego county residents ,734,100.0
