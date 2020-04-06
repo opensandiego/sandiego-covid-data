@@ -40,7 +40,6 @@ def convert_pdf(filename, download_date):
     #Determine date through time. This is the date that the sum goes until found 
     #in the PDF
     text = pdf_df.loc[0,"zipcode"]
-    month = 1
     match = re.search(r'\d{1}/\d{1}/\d{4}', text)
     if match == None:    
         match = re.search(r'\d{1}/\d{2}/\d{4}', text)
