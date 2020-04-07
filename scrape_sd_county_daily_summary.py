@@ -45,17 +45,31 @@ def convert_pdf(filename,yesterdate):
     
     #Writing data dataframe and json
     for line in pdf_list[start_index:end_index]:
-        tmp_list = re.split('(\d+)',line[0].lower())
-        if('incorporated' not in tmp_list[0]):
-            df = df.append({"date":yesterdate,\
-                                "city":tmp_list[0],\
-                                "confirmed_cases":tmp_list[1],\
-                                "percent_of_total(%)":"".join(tmp_list[3:-1])},\
-                                 ignore_index = True)
+        if(len(line) == 1):
+            tmp_list = re.split('(\d+)',line[0].lower())
+            if('incorporated' not in tmp_list[0]):
+                df = df.append({"date":yesterdate,\
+                                    "city":tmp_list[0],\
+                                    "confirmed_cases":tmp_list[1],\
+                                    "percent_of_total(%)":"".join(tmp_list[3:-1])},\
+                                     ignore_index = True)
+                
+                json_data[yesterdate].append({"city":tmp_list[0],\
+                         "confirmed_cases":tmp_list[1],\
+                         "percent_of_total(%)":"".join(tmp_list[3:-1])})
+        else:
+            tmp_list = line
+            if('incorporated' not in tmp_list[0]):
+                df = df.append({"date":yesterdate,\
+                                    "city":tmp_list[0],\
+                                    "confirmed_cases":tmp_list[1].split(" ")[0],\
+                                    "percent_of_total(%)":tmp_list[1].split(" ")[1]},\
+                                     ignore_index = True)
+                
+                json_data[yesterdate].append({"city":tmp_list[0],\
+                         "confirmed_cases":tmp_list[1],\
+                         "percent_of_total(%)":"".join(tmp_list[3:-1])})
             
-            json_data[yesterdate].append({"city":tmp_list[0],\
-                     "confirmed_cases":tmp_list[1],\
-                     "percent_of_total(%)":"".join(tmp_list[3:-1])})
     
     return df, json_data
 
