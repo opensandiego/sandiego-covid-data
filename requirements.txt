@@ -1,5 +1,5 @@
 boto3==1.12.30
 html5lib==1.0.1
-requests==2.23.0
+requests==2.31.0
 tabula-py==1.4.1
 pandas==1.0.3
